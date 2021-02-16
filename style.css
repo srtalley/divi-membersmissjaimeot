@@ -2,6 +2,30 @@
 Theme Name: Members Miss Jaime OT - Divi Child
 Template: Divi
 Author: Dusty Sun LLC
-Version: 1.0
-Updated: 2021-02-13
+Version: 1.0.6
+Updated: 2021-02-14
 */
+.wafp-link-code input[type=text], #wafp_main_affiliate_link input[type=text] {
+    width: calc(100% - 30px);
+    font-weight: bold;
+    background: #434343;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+}
+
+span.wafp-clipboard {
+    width: 20px;
+}
+
+ul.wafp-link-list li {
+    position: relative;
+}
+ul.wafp-link-list li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #a5a5a5;
+    bottom: -15px;
+}
