@@ -4,7 +4,7 @@ if ( !defined('ABSPATH')) exit;
 
 /* Add Included Class Files */
 // Adds the ability to show different terms for a membership
-require_once( dirname( __FILE__ ) . '/classes/affiliate-royale.php');
+// require_once( dirname( __FILE__ ) . '/classes/affiliate-royale.php');
 
 /* Add custom functions below */
 
